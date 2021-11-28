@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: beige;
+}
+
+h1,
+h4 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+}
+
+input[type='email'] {
+  width: 250px;
+  padding: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+::placeholder {
+  color: black;
+}
+
+.head {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* .form-container {
+  position: relative;
+  width: 100%;
+}
+
+.form-btn {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} */
