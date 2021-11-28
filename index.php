@@ -101,7 +101,7 @@ if(isset($_POST['submit']))
 <h3 class="head">XKCD COMIC MAILER</h3>
 
 <div></div>
-        <form method="post" class="container">
+        <form method="post" action="" class="container">
     <input type="email" name="email" placeholder="email" required/>
     <input type="submit" name="submit" value="VERIFY"  class="btn"/>
         </form> 
